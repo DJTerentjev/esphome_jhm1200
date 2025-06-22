@@ -1,5 +1,5 @@
 # esphome_jhm1200
-ESPHome External Component for JHM1200 (KY-I2C-3V3) pressure sensor 
+ESPHome External Component for JHM1200 (KY-I2C-3V3) I2C pressure sensor 
 
 ![jhm1200](https://github.com/user-attachments/assets/dfc820e4-5c6c-4f2e-9817-a775c39b0740)
 ## How to use
