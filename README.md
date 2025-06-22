@@ -42,8 +42,8 @@ temp_scale: 19000   # Temperature calibration scale
 ```
 #Temperature coefficients calculated for linear function (work for my sensor)
 ```yaml
-temp_offset: 157.9   # Temperature calibration offset
-temp_scale: -227.2   # Temperature calibration scale
+temp_offset: 157.8   # Temperature calibration offset
+temp_scale: -226.8   # Temperature calibration scale
 ```
 
 ## Local Installation
