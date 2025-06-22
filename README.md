@@ -20,10 +20,10 @@ sensor:
       id: jhm1200_pressure
     update_interval: 10s
     # Optional calibration parameters (default values shown)
-    temp_offset: 157.9   # Temperature calibration offset
-    temp_scale: -227.2   # Temperature calibration offset
     cal_l: -125000.0    # Lower calibration limit (Pa)
     cal_h: 1125000.0    # Upper calibration limit (Pa)
+    temp_offset: -4000   # Temperature calibration offset
+    temp_scale: 19000   # Temperature calibration scale
 ```
 ## Optional calibration parameters
 #Pressure (manufacturer exaple code)
@@ -37,7 +37,7 @@ cal_h: 1800000  #0-1.6 MPA
 
 #Temperature (manufacturer exaple code dosn't work correctly for my sensor)
 ```yaml
-temp_offset: - 4000   # Temperature calibration offset
+temp_offset: -4000   # Temperature calibration offset
 temp_scale: 19000   # Temperature calibration scale
 ```
 #Temperature coefficients calculated for linear function (work for my sensor)
