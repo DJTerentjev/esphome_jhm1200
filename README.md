@@ -47,7 +47,8 @@ temp_scale: -226.8   # Temperature calibration scale
 ```
 
 ## Local Installation
-Copy files from components/jhm1200_sensor/  File structure:
+Copy files from components/jhm1200_sensor/  
+File structure:
 ```
 esphome
 ├──components
